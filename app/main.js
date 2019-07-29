@@ -5,5 +5,5 @@ let mainWindow = null;
 app.on('ready', ()=>{
     console.log('hello world from electron');
     mainWindow = new BrowserWindow();
-    mainWindow.webContents.loadFile('index.html');
+    mainWindow.webContents.loadFile(__dirname+'/index.html');
 });
