@@ -11,7 +11,7 @@ const showFileButton = document.querySelector('#show-file');
 const openInDefaultButton = document.querySelector('#open-in-default');
 
 const renderMarkdownToHtml = (markdown) => {
-    htmlView.innerHTML = marked(markdown, { sanitize: true})
+    htmlView.innerHTML = marked(markdown, { sanitize: true});
 };
 
 markdownView.addEventListener('keyup', (event)=>{
@@ -21,5 +21,4 @@ markdownView.addEventListener('keyup', (event)=>{
 
 openFileButton.addEventListener('click', ()=>{
     alert('You clicked the open file button');
-}
-})
+});
