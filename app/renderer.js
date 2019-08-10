@@ -2,6 +2,10 @@ const marked = require('marked');
 const { remote, ipcRenderer } = require('electron');
 const mainProcess = remote.require('./main.js');
 const currentWindow = remote.getCurrentWindow();
+const path = require('path');
+
+let filePath=null;
+let originalContent = '0';
 
 const markdownView = document.querySelector('#markdown');
 const htmlView = document.querySelector('#html');
@@ -20,6 +24,7 @@ const renderMarkdownToHtml = (markdown) => {
 markdownView.addEventListener('keyup', (event)=>{
     const currentContent = event.target.value;
     renderMarkdownToHtml(currentContent);
+    updateUserInterface(currentContent !== originalContent);
 });
 
 openFileButton.addEventListener('click', ()=>{
@@ -27,10 +32,33 @@ openFileButton.addEventListener('click', ()=>{
 });
 
 ipcRenderer.on('file-opened', (event, file, content)=>{
+    filePath = file; //updates the path of the currently openend file stored in the top-level scope
+    originalContent = content; //updates the original content to determine if the file has unsaved changes
+
     markdownView.value = content;
     renderMarkdownToHtml(content);
+
+    updateUserInterface();
 });
 
 newFileButton.addEventListener('click', ()=>{
     mainProcess.createWindow();
-})
+});
+
+const updateUserInterface = (isEdited)=> {
+    let title = 'Fire Sale';
+
+    if(filePath){
+        title = `${path.basename(filePath)} - ${title}`;
+    }
+
+    if(isEdited){
+        title = `${title} (Edited)`;
+    }
+    currentWindow.setTitle(title);
+    currentWindow.setDocumentEdited(isEdited);
+
+    saveMarkdownButton.disabled = !isEdited;
+    revertButton.disabled = !isEdited;
+}
+

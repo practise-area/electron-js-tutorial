@@ -33,7 +33,8 @@ const getFileFromUser = exports.getFileFromUser=()=>{
 
 const openFile = exports.openFile = (targetWindow, file)=>{
     const content = fs.readFileSync(file).toString();
-    targetWindow.wenContents.send('file-opened', file, content);
+    targetWindow.setRepresentedFilename(file);
+    targetWindow.webContents.send('file-opened', file, content);
 };
 
 const windows = new Set();
