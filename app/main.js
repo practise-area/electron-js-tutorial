@@ -33,6 +33,7 @@ const getFileFromUser = exports.getFileFromUser=()=>{
 
 const openFile = exports.openFile = (targetWindow, file)=>{
     const content = fs.readFileSync(file).toString();
+    app.addRecentDocument(file);
     targetWindow.setRepresentedFilename(file);
     targetWindow.webContents.send('file-opened', file, content);
 };
@@ -90,3 +91,12 @@ app.on('activate', (event, hasVisibleWindows)=>{
         createWindow();
     }
 });
+
+app.on('will-finish-launching', ()=>{
+    app.on('open-file', (event, file) => {
+        const win = createWindow();
+        win.once('ready-to-show', ()=>{
+            openFile(win, file);
+        })
+    })
+})
