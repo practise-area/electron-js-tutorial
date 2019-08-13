@@ -1,0 +1,1164 @@
+[33mcommit e9fda182612d5a0ed805f711a42a14a5f7cfef66[m[33m ([m[1;36mHEAD -> [m[1;32mnotes-app[m[33m)[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Mon Aug 12 06:56:02 2019 +0200
+
+    Listing 6.10
+
+[33mcommit ec97095a1de690e04cc19f9f406cf44771bb2ca7[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Sun Aug 11 01:48:22 2019 +0200
+
+    listing 6.8
+
+[33mcommit 9df1d60d21876ee53d35c94f0dafbb9c89895ceb[m[33m ([m[1;31morigin/notes-app[m[33m)[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Sat Aug 10 04:18:05 2019 +0200
+
+    Update UI logic
+
+[33mcommit 9ed2a1c9f45c4bf9940a37cedd2ebe79d4051d19[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Sun Aug 4 08:21:51 2019 +0200
+
+    Update Files
+
+[33mcommit 53954c68b3c5bab069542eb15788f2ac008f7663[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Wed Jul 31 06:31:39 2019 +0200
+
+    Implement open file dialog
+
+[33mcommit 93896ae9da82074f5aac579482296e504348b07e[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Wed Jul 31 06:30:56 2019 +0200
+
+    Update packages
+
+[33mcommit 8b52974741f5bf13f5f80b0562d57a9515c0dd3e[m
+Author: Ian Kahwai <iankahwai@gmail.com>
+Date:   Mon Jul 29 06:59:36 2019 +0200
+
+    Update UI
+
+[33mcommit 6f729c3c9721f4753a624a7bb3fc5bf9650def23[m
+Merge: f7a40a8 d3839d5
+Author: Vlad Hashimoto <hashimoto.stream@gmail.com>
+Date:   Mon Jul 1 12:22:39 2019 +0300
+
+    build(deps-dev): bump electron from 5.0.5 to 5.0.6 (#291)
+    
+    Bump electron from 5.0.5 to 5.0.6
+    
+    Co-authored-by: null <27856297+dependabot-preview[bot]@users.noreply.github.com>
+
+[33mcommit d3839d5b8b780f0bddff05a80e88322224d891f6[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Thu Jun 27 13:14:23 2019 +0000
+
+    Bump electron from 5.0.5 to 5.0.6
+    
+    Bumps [electron](https://github.com/electron/electron) from 5.0.5 to 5.0.6.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v5.0.5...v5.0.6)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit f7a40a8327c5f12fc39002017deaa53f498e5bbd[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Mon Jun 24 07:51:27 2019 -0700
+
+    Bump electron from 5.0.4 to 5.0.5 (#290)
+    
+    Bumps [electron](https://github.com/electron/electron) from 5.0.4 to 5.0.5.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v5.0.4...v5.0.5)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit 8fc7f6b3bd4ab32014a6fcf85cb433c340b0cac7[m
+Author: dependabot-preview[bot] <dependabot-preview[bot]@users.noreply.github.com>
+Date:   Mon Jun 17 18:08:04 2019 -0700
+
+    Bump electron from 5.0.2 to 5.0.4 (#289)
+    
+    Bumps [electron](https://github.com/electron/electron) from 5.0.2 to 5.0.4.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v5.0.2...v5.0.4)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit 19788f8fbe10de4777d4c51c64b1d964a6b6901d[m
+Author: Mark Lee <malept@users.noreply.github.com>
+Date:   Fri Jun 7 09:23:51 2019 -0700
+
+    feat: use a preload script instead of enabling nodeIntegration (#279)
+
+[33mcommit 9b8a69de8f2eab60b8f27cb46a1f1d99e7d43b40[m
+Author: dependabot-preview[bot] <dependabot-preview[bot]@users.noreply.github.com>
+Date:   Fri May 24 07:45:06 2019 -0700
+
+    Bump electron from 5.0.0 to 5.0.2 (#285)
+    
+    Bumps [electron](https://github.com/electron/electron) from 5.0.0 to 5.0.2.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v5.0.0...v5.0.2)
+
+[33mcommit 1cb6d17b40c6fc14fd6dc4e6f2a951558b7e7297[m
+Merge: 474280b 2c4efcb
+Author: Vlad Hashimoto <hashimoto.stream@gmail.com>
+Date:   Fri Apr 26 16:01:59 2019 +0300
+
+    [Security] Bump electron from 4.1.4 to 5.0.0 (#275)
+    
+    [Security] Bump electron from 4.1.4 to 5.0.0
+
+[33mcommit 2c4efcbbb23417acd5d53c1be0df4a5ffd085095[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Thu Apr 25 13:15:48 2019 +0000
+
+    [Security] Bump electron from 4.1.4 to 5.0.0
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.1.4 to 5.0.0. **This update includes security fixes.**
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.1.4...v5.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit 474280be1d822f21606f02789bc098884913b942[m
+Merge: e95255d afa56db
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Thu Apr 11 19:33:09 2019 +0000
+
+    Merge pull request #273 from electron/dependabot/npm_and_yarn/electron-4.1.4
+
+[33mcommit afa56db071a46aea6a9bd26cb14428d5030a3994[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Fri Apr 5 13:15:34 2019 +0000
+
+    Bump electron from 4.1.3 to 4.1.4
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.1.3 to 4.1.4.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.1.3...v4.1.4)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit e95255da9db0bef7a76882ab5e5bbd161a3d75a5[m
+Merge: dbc225c 94a6076
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Mon Apr 1 15:37:22 2019 +0000
+
+    Merge pull request #272 from electron/dependabot/npm_and_yarn/electron-4.1.3
+
+[33mcommit 94a607645e87084f4406c9ef7db44855f7a7c4ac[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Mon Apr 1 13:16:20 2019 +0000
+
+    Bump electron from 4.1.1 to 4.1.3
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.1.1 to 4.1.3.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.1.1...v4.1.3)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit dbc225ca7632397af0e9880d0e2d1c4a9b7da4b0[m
+Author: Richie Bendall <richiebendall@gmail.com>
+Date:   Thu Mar 28 12:51:50 2019 +1300
+
+    Simplify if statements (#268)
+
+[33mcommit de1b77ffd544f152924cf9cd0a75226a26657ec3[m
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Thu Mar 21 14:18:15 2019 -0500
+
+    Bump electron from 4.0.7 to 4.1.1 (#267)
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.7 to 4.1.1.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.7...v4.1.1)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit f86d32a9da209475c416dd0fceee731062359168[m
+Merge: b255c69 98a165c
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Tue Mar 5 14:03:34 2019 +0000
+
+    Merge pull request #264 from electron/dependabot/npm_and_yarn/electron-4.0.7
+
+[33mcommit 98a165c1b5e474c1bee14cef8dfb904399d42be4[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Tue Mar 5 13:23:07 2019 +0000
+
+    Bump electron from 4.0.6 to 4.0.7
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.6 to 4.0.7.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.6...v4.0.7)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit b255c69847ae3055bf3bb7ea56e280dad6848525[m
+Merge: cbb3b10 d2a8ce2
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Wed Feb 27 13:41:15 2019 +0000
+
+    Merge pull request #261 from electron/dependabot/npm_and_yarn/electron-4.0.6
+
+[33mcommit d2a8ce2fb0fe3b8731092660196479a0c8dcb45a[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Wed Feb 27 13:21:52 2019 +0000
+
+    Bump electron from 4.0.4 to 4.0.6
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.4 to 4.0.6.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.4...v4.0.6)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit cbb3b10fb2f63f99180b5e69f3fdcbc9fe1accfc[m
+Author: Samuel Attard <samuel.r.attard@gmail.com>
+Date:   Mon Feb 11 15:05:31 2019 -0800
+
+    fix: specify nodeIntegration=true for Electron 5 compat (#257)
+
+[33mcommit d3298eac20aa918acadb5e18594867e6cab386c9[m
+Merge: fabb0a1 a6ae771
+Author: Samuel Attard <samuel.r.attard@gmail.com>
+Date:   Mon Feb 11 13:32:36 2019 -0800
+
+    Merge pull request #256 from electron/dependabot/npm_and_yarn/electron-4.0.4
+    
+    chore: bump electron from 4.0.3 to 4.0.4
+
+[33mcommit a6ae7717c54312d0ac5bbfab95047bfbe6796760[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Mon Feb 4 13:21:45 2019 +0000
+
+    Bump electron from 4.0.3 to 4.0.4
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.3 to 4.0.4.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.3...v4.0.4)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit fabb0a1e3285ec8cc12282293e789a0e5d69e927[m
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Wed Jan 30 12:14:30 2019 -0600
+
+    Bump electron from 4.0.2 to 4.0.3 (#254)
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.2 to 4.0.3.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.2...v4.0.3)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit 6d791aec918d8834e366cf19bbf47c57992f40fe[m
+Merge: ab27b0f e3f10d0
+Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+Date:   Wed Jan 23 13:22:01 2019 +0000
+
+    Merge pull request #252 from electron/dependabot/npm_and_yarn/electron-4.0.2
+
+[33mcommit e3f10d08731fce6c40e1336aa463e16edc2a0ae8[m
+Author: dependabot[bot] <support@dependabot.com>
+Date:   Wed Jan 23 13:19:44 2019 +0000
+
+    Bump electron from 4.0.1 to 4.0.2
+    
+    Bumps [electron](https://github.com/electron/electron) from 4.0.1 to 4.0.2.
+    - [Release notes](https://github.com/electron/electron/releases)
+    - [Commits](https://github.com/electron/electron/compare/v4.0.1...v4.0.2)
+    
+    Signed-off-by: dependabot[bot] <support@dependabot.com>
+
+[33mcommit ab27b0fbaaf8b07ae7856913b652276c8087565b[m
+Merge: 3b17aaf ef0554c
+Author: Brendan Forster <brendan@github.com>
+Date:   Sun Jan 6 18:08:26 2019 -0400
+
+    Merge pull request #247 from chankruze/master
+    
+    chore: package-lock.json updated for electron 4.0.1
+
+[33mcommit ef0554c27ab28f56d5eaa6e69c00fa9fa37a6a88[m
+Author: chankruze <chandu.chandaniit@gmail.com>
+Date:   Mon Jan 7 03:15:28 2019 +0530
+
+    package-lock updated
+
+[33mcommit 3b17aaf24d96f51eb574984794aad022e40bd06f[m
+Merge: 70df69d 89496c6
+Author: Brendan Forster <brendan@github.com>
+Date:   Sun Jan 6 17:44:11 2019 -0400
+
+    Merge pull request #246 from chankruze/master
+    
+    chore: updated electron version to 4.0.1
+
+[33mcommit 89496c6341f37db135860ab8f4ffacde70757c99[m
+Author: chandan kumar mandal <chandu.chandaniit@gmail.com>
+Date:   Mon Jan 7 03:07:39 2019 +0530
+
+    updated electron version to 4.0.1
+    
+    updated electron version in devDependencies from 3.0.7 to 4.0.1
+
+[33mcommit 70df69ddc689ced92a492ccb9018cd2a7801287a[m
+Author: Kasper Christensen <kasper@friischristensen.com>
+Date:   Wed Nov 21 17:38:46 2018 +0100
+
+    Updated electron to latest stable release (#233)
+
+[33mcommit 73efe7de8ae7e92504571e4e257d675b11b45404[m
+Author: Hum4n01d <hum4n01d@icloud.com>
+Date:   Wed Nov 21 08:20:45 2018 -0800
+
+    Update comments to reflect changed macOS name (#237)
+
+[33mcommit fbc0cb7f9c7b33f6a86140c1c6089099948b3ab2[m
+Author: Aldair Cruz <aldaircruz@users.noreply.github.com>
+Date:   Sun Oct 21 01:13:05 2018 +0100
+
+    chore(electron): update electron to version 3.0.4 to include latest bugfixes. (#228)
+    
+    https://github.com/electron/electron/releases/tag/v3.0.4
+
+[33mcommit 0b407100f3d8ead9a2899748fdd92b8384ccee87[m
+Author: Sebastian Schmidt <SebastianSchmidt@users.noreply.github.com>
+Date:   Wed Oct 10 12:29:04 2018 +0200
+
+    Update Electron to v3.0.3. (#226)
+
+[33mcommit 53e3856f96a553450057866919a72072bbf7faaa[m
+Author: Sebastian Schmidt <SebastianSchmidt@users.noreply.github.com>
+Date:   Thu Sep 27 23:39:53 2018 +0200
+
+    Update Electron to v3.0.0. (#223)
+
+[33mcommit dc1585b235a00bb6842ee2fd0e56fd94fdc1123e[m
+Merge: f9cd070 ec3eacb
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Fri May 25 14:43:26 2018 -0700
+
+    Merge pull request #209 from electron/update-main
+    
+    feat: update index loading for new API
+
+[33mcommit ec3eacbf94a4d5552cfd80ed99834b7225259de6[m
+Author: Shelley Vohr <shelley.vohr@gmail.com>
+Date:   Fri May 25 13:09:14 2018 -0700
+
+    update index loading for new API
+
+[33mcommit f9cd0707f8494bc75db8c305c38efacc81da0b53[m
+Author: Shelley Vohr <codebytere@github.com>
+Date:   Tue May 22 09:14:33 2018 -0700
+
+    fix single moderate dependency vulnerability (#208)
+
+[33mcommit 9f0ab1460f949e656b0ff37a732cd950363dc1cd[m
+Author: Shelley Vohr <codebytere@github.com>
+Date:   Mon May 7 10:49:31 2018 -0700
+
+    update to 2.0.0 (#204)
+    
+    * update to 2.0.0 and add package-lock
+    
+    * remove package.json
+
+[33mcommit 72f3f9d570dde9f1446b0a77ca8f0f45390da21a[m
+Author: Sebastian Schmidt <SebastianSchmidt@users.noreply.github.com>
+Date:   Wed Mar 28 16:17:11 2018 +0200
+
+    Use the new domain of the Electron project in the README file (#195)
+
+[33mcommit febd15241aba75fc7dca941d74c6bace2cd08eed[m
+Author: Dhruv Jain <dhruvjainpenny@gmail.com>
+Date:   Fri Mar 23 17:15:36 2018 +0530
+
+    electron upgrade to 1.8.4 (#193)
+
+[33mcommit 8ae09bda35391aa49d12356d6e1db64b7357bf8d[m
+Author: Charles Kerr <ckerr@github.com>
+Date:   Mon Feb 19 08:05:25 2018 -0600
+
+    bump electron devDependencies to 1.8.2 (#188)
+    
+    now that we have a stable 1.8.x version in npm, bump our dependency from 1.7.x to 1.8.x
+
+[33mcommit 71199c46fc6d599ab3f29f25e837d0e1768b5ef7[m
+Merge: d8b4f0b 3162ba6
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Sep 27 15:05:57 2017 -0700
+
+    Merge pull request #169 from SteeveDroz/patch-1
+    
+    Place <script> in <body>
+
+[33mcommit d8b4f0bef36aeb5ef0c81fe5f5e44f7c8544b711[m
+Merge: dea0121 235c80f
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Sep 27 15:05:10 2017 -0700
+
+    Merge pull request #167 from auchenberg/patch-1
+    
+    Update Electron to 1.7.6
+
+[33mcommit 235c80f7c9ad32b59513f5835ecfcc69af9daeb6[m
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Sep 27 15:04:46 2017 -0700
+
+    Update electron to ~1.7.9
+
+[33mcommit 3162ba6e631436c27d17557dd7b80ca768c53814[m
+Author: Steeve Droz <steeve.droz@rpn.ch>
+Date:   Tue Sep 19 11:04:12 2017 +0200
+
+    Place <script> in <body>
+
+[33mcommit 11902e9168e11bc84897b325ada21f2099be6fed[m
+Author: Kenneth Auchenberg <kenneth@auchenberg.dk>
+Date:   Tue Sep 12 11:05:35 2017 +0200
+
+    Update Electron to 1.7.6
+
+[33mcommit dea012119e8532693458f4181d60efaec387e72c[m
+Merge: 1a4fd86 5a90a36
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Apr 5 12:18:18 2017 -0700
+
+    Merge pull request #132 from bratsos/master
+    
+    Warning for Win10 on readme
+
+[33mcommit 5a90a367aff1b7e3255982cea63f4e7e0aac3d33[m
+Merge: b7aa361 1a4fd86
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Apr 5 12:17:52 2017 -0700
+
+    Merge branch 'master' into master
+
+[33mcommit b7aa3615f0c695224ff4926be238b211fa9f6ae5[m
+Author: Alex Bratsos <alexisbratsos@gmail.com>
+Date:   Wed Apr 5 18:09:02 2017 +0300
+
+    Shorter text
+
+[33mcommit 1a4fd86f69d274c975ebd21b868d65d47e95224b[m
+Merge: 6d5ce1d 0720017
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Sat Apr 1 11:15:07 2017 -0700
+
+    Merge pull request #137 from AppIns/patch-1
+    
+    Comment out enabling dev tools
+
+[33mcommit 6d5ce1d1c66d0f5d72caf3a59432e60cb7ceb5f3[m
+Merge: 6df144e a2e009e
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Mar 22 16:14:02 2017 -0700
+
+    Merge pull request #140 from electron/add-learning-resources
+    
+    update readme with links to more guides and examples
+
+[33mcommit 6df144e71e258a603b1d1a20ce441ffedd434a5e[m
+Merge: f8ae670 66ec67a
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Mar 22 16:13:49 2017 -0700
+
+    Merge pull request #142 from electron/use-safer-semver-range-for-electron
+    
+    use safer semver range for electron
+
+[33mcommit 66ec67a8a7888c5d65bf5c0cea3e2ec3f68fdfe1[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Wed Mar 22 16:01:06 2017 -0700
+
+    use safer semver range for electron
+
+[33mcommit a2e009e5c1488c758e1a87410910c2daa03a88b5[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Mon Mar 13 12:56:38 2017 -0700
+
+    update readme with links to more guides and examples
+
+[33mcommit 07200177f56be217c0a1db2e99e1e4d3776eb053[m
+Author: Alex Anderson <alexandersonone@gmail.com>
+Date:   Sun Feb 26 13:38:54 2017 -0800
+
+    Comment out enabling dev tools
+    
+    I feel like people should know how to do this but I have personally seen people getting confused as to why the developer tools show up. This would make it so you are not required to even touch this file
+
+[33mcommit 818ba0d1aef9e182105c9bb50fb6a5575157f175[m
+Author: Alex Bratsos <alexisbratsos@gmail.com>
+Date:   Thu Feb 16 11:32:58 2017 +0200
+
+    Warning for Win10 on readme
+    
+    Added a warning for Windows 10 users facing npm errors. Most of the times that's the problem
+
+[33mcommit f8ae670ce85ce7329580b1085e37abb62ea3566b[m
+Merge: 2f629f5 461aa45
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Fri Dec 23 19:31:47 2016 -0800
+
+    Merge pull request #121 from pratu16x7/hotfix/readme-broken-link
+    
+    Fix Readme Quick Start Guide links
+
+[33mcommit 461aa458bd0c32613927bd062a58606d0c576b12[m
+Author: pratu16x7 <pratu16x7@gmail.com>
+Date:   Sat Dec 24 00:51:36 2016 +0530
+
+    Fix Readme Quick Start Guide links
+    
+    Fix Readme Quick Start Guide links
+
+[33mcommit 2f629f57379812b214d2754d2b76aefcc9e32c3e[m
+Merge: 0c71d64 b200985
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Dec 21 10:28:26 2016 -0800
+
+    Merge pull request #119 from michaeljcalkins/patch-1
+    
+    Fix links that 404 or redirect
+
+[33mcommit b200985d4dae4abd9429998e8f7806385e67f857[m
+Author: Michael J. Calkins <michaeljamescalkins@gmail.com>
+Date:   Wed Dec 21 07:19:32 2016 -0800
+
+    Fix links that 404 or redirect
+    
+    http://electron.atom.io/docs/tutorial/quick-start/ -> Replaces links that were 404ing
+    http://electron.atom.io/docs/ -> Replaces a link that was redirecting via 301
+
+[33mcommit 0c71d6400a25eefb808a0919e170e1c632aa7b9f[m
+Merge: 3d18c59 8365ee9
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Tue Nov 22 21:06:09 2016 -0800
+
+    Merge pull request #110 from electron/fix-readme-wording
+    
+    Remove "an" from intro
+
+[33mcommit 8365ee98310b4f78958b6723cc88bb2523f76135[m
+Author: Phil Haack <haacked@gmail.com>
+Date:   Tue Nov 22 13:47:50 2016 -0800
+
+    Remove "an" from intro
+    
+    The wording is awkward. I think removing "an" works. Alternatively, adding the word "application" after "Electron" works too.
+
+[33mcommit 3d18c59748ad4b3b54a81d1794eb84b4a8d57f20[m
+Merge: 85e575a af3f71d
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Mon Oct 31 11:26:06 2016 -0700
+
+    Merge pull request #102 from electron/url-format
+    
+    Format URL passed to BrowserWindow.loadURL
+
+[33mcommit af3f71dda3dc5bb90ed8c80c49df0a71ffe482f4[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 31 10:38:04 2016 -0700
+
+    Separate install and start steps
+
+[33mcommit 0af284c37cb6360d14f39d5839dea10fb7d0a5a7[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 31 10:36:11 2016 -0700
+
+    Use path.join for pathname
+
+[33mcommit 995d109c329fc0ee15d4aba96eb7e6569f3c2c35[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 31 10:32:20 2016 -0700
+
+    Format URL passed to BrowserWindow.loadURL
+
+[33mcommit 85e575a55eb9cafcf0a7bd41c25aee9d95f8e81a[m
+Author: Kevin Sawicki <kevin@github.com>
+Date:   Thu Oct 27 17:54:22 2016 -0700
+
+    Use full Node.js name
+
+[33mcommit d742f28aa27108c52dad75bf2b24a50b1e8bd88a[m
+Merge: 9c73a9d a87baf1
+Author: Kevin Sawicki <kevin@github.com>
+Date:   Thu Oct 27 17:53:59 2016 -0700
+
+    Merge pull request #100 from kavunshiva/master
+    
+    fix Node capitalization
+
+[33mcommit a87baf104eef536f1bbf548d068640c1429e094c[m
+Author: Isaac Anderson <isaac.s.anderson@gmail.com>
+Date:   Thu Oct 27 20:48:03 2016 -0400
+
+    fix Node capitalization
+
+[33mcommit 9c73a9db22537a1d7513f67ec1aef2c5281a572e[m
+Merge: a645e8d 83bf489
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Wed Oct 5 20:21:09 2016 -0700
+
+    Merge pull request #88 from electron/upkeep
+    
+    Use new electron version and clean up package.json
+
+[33mcommit a645e8daa9edf4e5c965c9d32b851493ffcada0e[m
+Merge: 62d428a 5316c78
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Tue Oct 4 19:19:04 2016 -0700
+
+    Merge pull request #91 from electron/update-license-text
+    
+    Update license text in README
+
+[33mcommit 5316c7872e5a46ea247810c91b153d4e9a5eb588[m
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Tue Oct 4 09:37:02 2016 -0700
+
+    update license text in README
+
+[33mcommit 83bf4897481904e72c2cf41b8791bab9169833e8[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Wed Sep 28 11:10:43 2016 -0700
+
+    clean up package.json
+
+[33mcommit 51f3fcc276b2fbb494a08ef1a81a8ef14f941bf0[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Wed Sep 28 11:10:21 2016 -0700
+
+    update electron to 1.4.1
+
+[33mcommit 62d428a1a51303c9a33c691b487c1998ba78faf8[m
+Merge: dbef48e 35a725f
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Wed Aug 31 10:48:37 2016 -0700
+
+    Merge pull request #79 from bhaveshgohel/patch-1
+    
+    🎉 npm install electron --save-dev
+
+[33mcommit 35a725f479f28623746054be7593bfa1bd9f7d35[m
+Author: Bhavesh Gohel <ibhaveshgohel@gmail.com>
+Date:   Wed Aug 31 15:28:15 2016 +0530
+
+    :tada: npm install electron --save-dev
+    
+    We can [npm install electron](http://electron.atom.io/blog/2016/08/16/npm-install-electron) directly!  :tada:
+
+[33mcommit dbef48ee7d072a38724ecfa57601e39d36e9714e[m
+Merge: 8ac98b6 072bdd9
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Thu Aug 11 09:37:38 2016 -0700
+
+    Merge pull request #70 from electron/link-to-boilerplates
+    
+    link to boilerplates
+
+[33mcommit 072bdd9fc08e446bd69ecd099aaf1323948b0c65[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Thu Jul 14 15:02:18 2016 -0700
+
+    link to boilerplates
+
+[33mcommit 8ac98b6f5071e2821898ce3092d659913b3827df[m
+Merge: 1332e29 0be7f99
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Tue Jun 21 12:27:22 2016 -0400
+
+    Merge pull request #63 from thompsonemerson/patch-2
+    
+    fixes #61
+
+[33mcommit 0be7f9922444566bcfe2c60fe5a4c417d0b8955e[m
+Author: Emerson Thompson <thompson.emerson@gmail.com>
+Date:   Wed Jun 15 14:53:42 2016 -0300
+
+    fixes #61
+
+[33mcommit 1332e29fb1853e096ea14e2b8562a0317f03c40c[m
+Merge: 34e8dce 0573ce7
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri May 27 10:45:41 2016 -0700
+
+    Merge pull request #58 from sahildua2305/patch-1
+    
+    :arrow_up: electron @ 1.2.0
+
+[33mcommit 0573ce7e959e808084402efc85f9260bd4c5f239[m
+Author: Sahil Dua <sahildua2305@gmail.com>
+Date:   Fri May 27 07:19:42 2016 +0530
+
+    :arrow_up: electron
+
+[33mcommit 34e8dce241a6c729f849a3eb52e328cdc418aaa7[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Tue May 24 08:35:26 2016 -0700
+
+    :arrow_up: electron@1.1.2
+
+[33mcommit 19722fb825358ac2e89bc019077a7a332e92b63c[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri May 20 11:35:23 2016 -0700
+
+    Bump version of Electron to v1.1.1
+
+[33mcommit 3550153dcbbbff6f578c92ce4cc3ccfcfe8911a3[m
+Merge: 0cfcd92 46d7d19
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri May 13 14:06:57 2016 +0000
+
+    Merge pull request #52 from posva/es6-patch
+    
+    Use string es6 interpolation
+
+[33mcommit 46d7d193cf5c24f2a4560289915a9ee25e9e1ad1[m
+Author: Eduardo San Martin Morote <posva13@gmail.com>
+Date:   Thu May 12 15:41:16 2016 +0200
+
+    Use string es6 interpolation
+
+[33mcommit 0cfcd92d594deeac5e2804d3c785a8f7d39cbfcb[m
+Merge: 07c7759 ee39fff
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Thu May 12 12:46:26 2016 +0200
+
+    Merge pull request #50 from louistsaitszho/master
+    
+    bump electron prebuilt to ^1.0.1
+
+[33mcommit ee39fff34d495316024918a00b6e3895ad7477d4[m
+Author: Louis Tsai <louis993546@gmail.com>
+Date:   Thu May 12 00:22:15 2016 +0800
+
+    bump electron prebuilt to ^1.0.1
+
+[33mcommit 07c7759d453a899ac96d5266e41b6633935169db[m
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Wed May 11 08:48:52 2016 +0200
+
+    Mention the Electron API Demos app
+
+[33mcommit 7bf866c3c56726db340f35ef03d9fe9b101a1578[m
+Merge: 82d07e4 008b6d2
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri Apr 29 13:55:25 2016 -0700
+
+    Merge pull request #46 from electron/bump-electron-prebuilt
+    
+    bump electron prebuilt to ^0.37.8
+
+[33mcommit 82d07e46398b4c4dd501fe2c944df3dcf5c1715c[m
+Merge: 732b807 1c94f99
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri Apr 29 13:54:04 2016 -0700
+
+    Merge pull request #45 from electron/standardize
+    
+    use standard style
+
+[33mcommit 008b6d25402bcb87be686c396df6898e4620914c[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Fri Apr 29 13:11:15 2016 -0700
+
+    bump electron prebuilt to ^0.37.8
+
+[33mcommit 1c94f990970735e6de7b7f3c6a0ce8745bcaeab8[m
+Author: Zeke Sikelianos <zeke@sikelianos.com>
+Date:   Fri Apr 29 13:08:11 2016 -0700
+
+    use standard style
+
+[33mcommit 732b80719377f70fc664f2b481d890e8f2c66299[m
+Merge: 4784b86 f7dae7a
+Author: Zeke Sikelianos <zeke@github.com>
+Date:   Thu Apr 28 17:40:05 2016 -0700
+
+    Merge pull request #44 from electron/updates
+    
+    Make updates
+
+[33mcommit f7dae7a3289adede97e5ec7b1d23ddab4604a208[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Thu Apr 28 17:32:24 2016 -0700
+
+    Copy edits per inline comments
+
+[33mcommit e1fba0fb557451d8733a2a6744cfea398105d774[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Thu Apr 28 17:19:16 2016 -0700
+
+    Use newer Electron
+
+[33mcommit b5a73e2e089215b44741cc0f924231b66c2480ca[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Thu Apr 28 17:18:32 2016 -0700
+
+    Add comment
+
+[33mcommit df6263172b43b8a47fcd90ccff8fe42b679ce9fa[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Thu Apr 28 17:18:15 2016 -0700
+
+    Fix path
+
+[33mcommit f3078065eb2bbc437b9a0c7a3158e9205f3010f4[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Apr 20 15:18:14 2016 -0700
+
+    A few tweaks to readme
+
+[33mcommit ae4e0afaaf1077a7718e34ef9c3f4f95d4b9643c[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Apr 20 15:14:27 2016 -0700
+
+    Add a comments
+
+[33mcommit 1e287bdb624bb1a62362316994c226ba7d26f6a9[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Apr 20 15:14:19 2016 -0700
+
+    Add example and notes on using require in renderer process
+
+[33mcommit 77abe0dd3a1ae563b2c2e3a6db8fd53929672eb7[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Apr 20 15:13:58 2016 -0700
+
+    Note availability of Node APIs
+
+[33mcommit e0192879df639615b032381aa56c9a19e158ba4f[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Apr 20 15:06:21 2016 -0700
+
+    Do not need 'use strict'
+
+[33mcommit 4784b86b9c032defc926bb8028d900a0c748c285[m
+Merge: 2b2bebf 350e62e
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri Apr 8 12:58:49 2016 -0700
+
+    Merge pull request #36 from bokuweb/patch-1
+    
+    update_package.json
+
+[33mcommit 2b2bebf38c692c05e7c47d69560968a59a423cc0[m
+Merge: 48bdcd2 6d2277b
+Author: Kevin Sawicki <kevin@github.com>
+Date:   Mon Apr 4 13:00:52 2016 -0700
+
+    Merge pull request #40 from electron/electron-org
+    
+    Update urls for new GitHub org
+
+[33mcommit 6d2277b49cb850bd5880448a09a9d4dc7cc49767[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Apr 4 13:00:14 2016 -0700
+
+    Update urls for new GitHub org
+
+[33mcommit 350e62e6fad12c09334e588c580ae44e506feeb1[m
+Author: bokuweb <bokuweb@users.noreply.github.com>
+Date:   Fri Mar 18 22:27:54 2016 +0900
+
+    update_package.json
+
+[33mcommit 48bdcd258f68da06de688d8e7ae46de87fbeb733[m
+Merge: 8ff9e5c 3df7801
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Mon Feb 22 16:03:05 2016 -0800
+
+    Merge pull request #32 from galeksandrp/patch-1
+    
+    -> Chromium
+
+[33mcommit 3df78011984a651d6b87e8c969b9ef977191f0d3[m
+Author: Alexander Georgievskiy <galeksandrp@gmail.com>
+Date:   Tue Feb 23 02:37:57 2016 +0300
+
+    -> Chromium
+
+[33mcommit 8ff9e5c25bf6d7e1adb45bde39ecf22a6f79753a[m
+Merge: d74d4fc 8a60d00
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Wed Jan 13 11:40:00 2016 -0800
+
+    Merge pull request #27 from clemens-tolboom/clemens-tolboom-patch-1
+    
+    Remove $ in code example
+
+[33mcommit d74d4fc039a016f567af55dfe94182f28ea2f62a[m
+Merge: 81158b3 d709bb0
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Tue Jan 5 10:50:50 2016 -0800
+
+    Merge pull request #26 from atom/app-restore
+    
+    Restore window on activate event
+
+[33mcommit 8a60d001e432d9c0e6f0280a7fc861fffcf720f0[m
+Author: Clemens Tolboom <clemens@build2be.com>
+Date:   Fri Jan 1 16:15:54 2016 +0100
+
+    Remove $ in code example
+    
+    Let's make this copy/paste able.
+
+[33mcommit d709bb0885d732c443507191aa6a3cf89c65b379[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Dec 16 11:19:56 2015 -0800
+
+    Extract createWindow helper, re org
+
+[33mcommit 49228fc51042b80985b6d65f94f04ca5f089b62b[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Dec 16 11:13:32 2015 -0800
+
+    Clean up
+
+[33mcommit 3f26258efd9dcb99e701ab8a7bea8cabbd233e17[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Dec 16 11:11:29 2015 -0800
+
+    Use stricter platform check
+
+[33mcommit 803db72fe6334140f617f2751322189fbc64f95d[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Wed Dec 16 11:10:38 2015 -0800
+
+    Restore window on activate event
+
+[33mcommit 81158b353396d90c40fca491e3ee5db5c54827f0[m
+Merge: 96be8d3 3254071
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Wed Dec 16 10:41:21 2015 -0800
+
+    Merge pull request #24 from bokuweb/fix_ver
+    
+    Fix dependencies version
+
+[33mcommit 96be8d30fb799b31f97611618d9500c99b371933[m
+Merge: 7287c09 d3e2c50
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Wed Dec 16 10:29:45 2015 -0800
+
+    Merge pull request #25 from atom/remove-crash-reporter-starting
+    
+    Remove call to crashReporter.start()
+
+[33mcommit d3e2c5027c65e71e3d7222ea4547b9dfc583e386[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Wed Dec 16 10:17:52 2015 -0800
+
+    Remove call to crashReporter.start()
+
+[33mcommit 7287c09f9c239aef6412fa3d18c46de9018c8cc9[m
+Merge: ceec7c3 e5f2635
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Tue Dec 15 17:30:17 2015 -0800
+
+    Merge pull request #19 from icoxfog417/issue18
+    
+    fix #18
+
+[33mcommit 3254071d5810bd6499ec662028d16cbc876d4ac2[m
+Author: bokuweb <info@typebeats.com>
+Date:   Tue Dec 15 14:19:48 2015 +0900
+
+    Fix dependencies version
+
+[33mcommit e5f2635f3b838e6eb2a13bd9c8f3726efdb1653d[m
+Author: icoxfog417 <icoxfog417@yahoo.co.jp>
+Date:   Mon Dec 7 16:17:42 2015 +0900
+
+    fix #18
+
+[33mcommit ceec7c3b054e652e5669c69350bbc346e8e167fa[m
+Author: laiso <laiso@lai.so>
+Date:   Tue Nov 24 21:23:04 2015 +0900
+
+    Fix the deprecation warning
+    
+    https://github.com/atom/electron/pull/3424
+
+[33mcommit 25e99f79b15aad67d1159adeebdde8681e9262fc[m
+Merge: ac1e753 575b1bc
+Author: Kevin Sawicki <kevin@github.com>
+Date:   Thu Dec 3 15:38:46 2015 -0800
+
+    Merge pull request #9 from tcyrus/tcyrus-patch-1
+    
+    Made Changes Based on Electron Quick Start Guide
+
+[33mcommit ac1e753941e1e8f81f355222f124dc00e6a91a2e[m
+Merge: 1a2e376 93394cf
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Tue Nov 24 08:12:02 2015 -0800
+
+    Merge pull request #8 from phanect/master
+    
+    Change license to CC0
+
+[33mcommit 575b1bcf73f46ef1f6339d9aaab2682109b62695[m
+Author: Timothy Cyrus <tcyrus@users.noreply.github.com>
+Date:   Mon Nov 23 21:32:52 2015 -0500
+
+    Update index.html
+
+[33mcommit 81a25b578a2838e81458bdfafd47e9e4a8ffc538[m
+Author: Timothy Cyrus <tcyrus@users.noreply.github.com>
+Date:   Mon Nov 23 21:28:34 2015 -0500
+
+    Update main.js
+
+[33mcommit 89521a41660e65a1f61c8d5aafcf51beeb2263da[m
+Author: Timothy Cyrus <tcyrus@users.noreply.github.com>
+Date:   Mon Nov 23 21:16:42 2015 -0500
+
+    Update main.js
+
+[33mcommit 1a2e376b23601918fcf52d3c975a5f6bfd111e0e[m
+Merge: 9a7571a 6e72b0b
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Mon Nov 23 14:00:17 2015 -0800
+
+    Merge pull request #7 from fscherwi/patch-1
+    
+    upgrade electron
+
+[33mcommit 93394cf6592bf96ed3395e8a642139cb189892fe[m
+Author: Jumpei Ogawa <phanective@gmail.com>
+Date:   Mon Nov 23 06:47:37 2015 +0900
+
+    Change license to CC0
+
+[33mcommit 6e72b0b26fe1ab405e8853ba63b191b8d5b8a4b2[m
+Author: fscherwi <fscherwi@users.noreply.github.com>
+Date:   Tue Nov 17 18:16:51 2015 +0100
+
+    :arrow_up: electron
+
+[33mcommit 9a7571a64c90ebfe87659bae5f198af3a0bb663a[m
+Merge: bc0055c 6cc15d5
+Author: Kevin Sawicki <kevin@github.com>
+Date:   Mon Nov 9 16:27:19 2015 -0800
+
+    Merge pull request #2 from johnmuhl/johnmuhl-patch-1
+    
+    Replace deprecated use of `bw.openDevTools`
+
+[33mcommit bc0055c83973380d7af3d3c4797c0552d966151b[m
+Merge: c5f2665 6247578
+Author: Ivan Žužak <ivan.zuzak@github.com>
+Date:   Tue Oct 27 13:55:05 2015 +0100
+
+    Merge pull request #4 from Shriken/patch-1
+    
+    Fix typo in README.md
+
+[33mcommit c5f2665f516ef3137c311ff130ebb31a50217fd5[m
+Merge: fcc2513 2650307
+Author: Ivan Žužak <ivan.zuzak@github.com>
+Date:   Mon Oct 26 17:56:29 2015 +0100
+
+    Merge pull request #3 from IonicaBizauKitchen/master
+    
+    Fix typo in description
+
+[33mcommit 624757867aba58e69d54e0d10f1d9acc4ce9e7e3[m
+Author: Zane Sterling <sterling.zane@gmail.com>
+Date:   Sun Oct 25 13:00:46 2015 -0400
+
+    Fix typo in README.md
+
+[33mcommit 2650307e36cd92f660f9d9b3ea74bca6204c08a5[m
+Author: Ionică Bizău <bizauionica@gmail.com>
+Date:   Wed Oct 21 10:55:42 2015 +0300
+
+    Fix typo in description ("an" :arrow_right: "a")
+
+[33mcommit 6cc15d50380f2599366930a55a186a965f3eb8e6[m
+Author: John Muhl <git@johnmuhl.com>
+Date:   Tue Oct 20 17:20:57 2015 -0500
+
+    Replace deprecated use of `bw.openDevTools`
+
+[33mcommit fcc251352b84715b74be7ffff6cccf83eb796f91[m
+Merge: 4508b77 dd3694e
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Mon Oct 19 16:34:43 2015 -0700
+
+    Merge pull request #1 from atom/tweak-index
+    
+    Add Chrome version and mention node
+
+[33mcommit dd3694e254effb9bfec45bc1db41b1b9eb7c056d[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 19 15:25:08 2015 -0700
+
+    Use commas
+
+[33mcommit 2294b4d52b08d3db209ed7b330b8eee147d76cf3[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 19 15:23:55 2015 -0700
+
+    Add Chrome version
+
+[33mcommit 7f2de91eec5fcfeabe128f80ca44f37c1d865d81[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 19 15:22:06 2015 -0700
+
+    Remove unneeded quotes
+
+[33mcommit 64b624c5c2c07834054faa0b1508497499ea5a55[m
+Author: Kevin Sawicki <kevinsawicki@gmail.com>
+Date:   Mon Oct 19 15:21:37 2015 -0700
+
+    io.js -> node
+
+[33mcommit 4508b774d160b66a196dd1e59f39bb652c7c61f2[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri Oct 16 17:52:17 2015 -0700
+
+    Add MIT License
+
+[33mcommit 501541fd8ba8322a8241959f01c3d5c9477de86f[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri Oct 16 17:52:00 2015 -0700
+
+    Add readme
+
+[33mcommit 912d5dcca4ce16745dcb21a33bc86b1065343971[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri Oct 16 17:07:36 2015 -0700
+
+    Add package.json
+    Built using npm init rather than minimal guide example
+
+[33mcommit 8113791cebec956796e5a10562b64fa965754f7e[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri Oct 16 17:04:57 2015 -0700
+
+    Add quick start files
+
+[33mcommit 70779efcf4b636d7dadb95f032d09f4e5ecd0512[m
+Author: Jessica Lord <jlord@github.com>
+Date:   Fri Oct 16 17:00:08 2015 -0700
+
+    Add gitignore
+
+[33mcommit 1d7b194779561c673fbccf18f114826687fd83f3[m
+Author: Jessica Lord <jessica.lord@github.com>
+Date:   Fri Oct 16 16:56:39 2015 -0700
+
+    Initial commit
