@@ -63,6 +63,6 @@ const updateUserInterface = (isEdited)=> {
 };
 
 saveHtmlButton.addEventListener('click', ()=>{
-    mainProcess.saveHTML(currentWindow, htmlView.innerHTML);
+    mainProcess.saveHTML(currentWindow, filePath, markdownView.view);
 })
 
