@@ -99,4 +99,18 @@ app.on('will-finish-launching', ()=>{
             openFile(win, file);
         })
     })
-})
+});
+
+const saveHTML = exports.saveHTML = (targetWindow, content) => {
+    const file = dialog.showSaveDialog(targetWindow, {
+        title: 'Save HTML',
+        defaultPath: app.getPath('documents'),
+        filters: [
+            {name: 'HTML files', extensions: ['html', 'htm']}
+        ]
+    });
+
+    if(!file) return;
+
+    fs.writeFileSync(file, content);
+}
