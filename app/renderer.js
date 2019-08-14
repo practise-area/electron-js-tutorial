@@ -71,3 +71,8 @@ revertButton.addEventListener('click', ()=>{
     renderMarkdownToHtml(originalContent);
 })
 
+/* prevent default behaviour */
+document.addEventListener('dragstart', event => event.preventDefault());
+document.addEventListener('dragover', event => event.preventDefault());
+document.addEventListener('dragleave', event => event.preventDefault());
+document.addEventListener('drop', event => event.preventDefault());
