@@ -76,3 +76,11 @@ document.addEventListener('dragstart', event => event.preventDefault());
 document.addEventListener('dragover', event => event.preventDefault());
 document.addEventListener('dragleave', event => event.preventDefault());
 document.addEventListener('drop', event => event.preventDefault());
+
+/* helper methods */
+const getDraggedFile = (event) => event.dataTransfer.items[0];
+const getDroppedFile = (event) => event.dataTransfer.files[0];
+
+const fileTypeIsSupported = (file) => {
+    return ['text/plain', 'text/markdown'].includes(file.type);
+};
