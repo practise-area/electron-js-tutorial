@@ -99,3 +99,16 @@ markdownView.addEventListener('dragleave', (event) => {
     markdownView.classList.remove('drag-over');
     markdownView.classList.remove('drag-error');
 })
+
+markdownView.addEventListener('drop', (event) => {
+    const file = getDroppedFile(event);
+
+    if(fileTypeIsSupported(file)){
+        mainProcess.openFile(currentWindow, file.path);
+    }else{
+        alert('That file type is not supported');
+    }
+
+    markdownView.classList.remove('drag-over');
+    markdownView.classList.remove('drag-error');
+})
