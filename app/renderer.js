@@ -60,5 +60,9 @@ const updateUserInterface = (isEdited)=> {
 
     saveMarkdownButton.disabled = !isEdited;
     revertButton.disabled = !isEdited;
-}
+};
+
+saveHtmlButton.addEventListener('click', ()=>{
+    mainProcess.saveHTML(currentWindow, htmlView.innerHTML);
+})
 
