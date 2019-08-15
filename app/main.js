@@ -134,3 +134,24 @@ const saveMarkdown = exports.saveMarkdown = (targetWindow, file, content) => {
 
 const openFiles = new Map();
 
+const startWatchingFile = (targetWindow, file) => {
+    stopWatchingFile(targetWindow);
+
+    const watcher = fs.watchFile(file, event => {
+        if(event === 'change'){
+            const content = fs.readFileSync(file);
+
+            //send message to the renderer process
+            targetWindow.webContents.send('file-opened', file, content);
+        }
+    });
+
+    openFiles.set(targetWindow, watcher);
+};
+
+const stopWatchingFile = (targetWindow) => {
+    if(openFiles.has(targetWindow)){ //checks if watcheris running fo this window
+        openFiles.get(targetWindow).stop();
+        openFiles.delete(targetWindow);
+    }
+};
