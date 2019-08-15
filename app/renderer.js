@@ -41,6 +41,25 @@ ipcRenderer.on('file-opened', (event, file, content)=>{
     updateUserInterface();
 });
 
+ipcRenderer.on('file-opened', (event, file, content)=>{
+    if(currentWindow.isDocumentEdited()){
+        const result = remote.dialog.showMessageBox(currentWindow, {
+            type: 'warning',
+            title: 'Overwrite Current Unsaved Changes?',
+            message: 'Opening a new file in this window will overwrite your unsaved changes. Open this file anyway?',
+            buttons: [
+                'Yes',
+                'Cancel',
+            ],
+            defaultId: 0,
+            cancelId: 1
+        });
+
+        if(result === 1) { return ;}
+    }
+    
+    renderFile(file, content);
+})
 newFileButton.addEventListener('click', ()=>{
     mainProcess.createWindow();
 });
