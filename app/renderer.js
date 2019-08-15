@@ -57,7 +57,23 @@ ipcRenderer.on('file-opened', (event, file, content)=>{
 
         if(result === 1) { return ;}
     }
-    
+
+    renderFile(file, content);
+});
+
+ipcRenderer.on('file-changed', (event, file, content)=>{
+    const result = remote.dialog.showMessageBox(currentWindow, {
+        type: 'warning',
+        title: 'Overwrite Current Unsaved Changes?',
+        message: 'Another application has changed this file. Load changes?',
+        buttons: [
+            'Yes',
+            'Cancel'
+        ],
+        defaultId: 0,
+        cancelId: 1
+    });
+
     renderFile(file, content);
 })
 newFileButton.addEventListener('click', ()=>{
