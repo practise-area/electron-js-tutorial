@@ -143,7 +143,7 @@ const startWatchingFile = (targetWindow, file) => {
             const content = fs.readFileSync(file);
 
             //send message to the renderer process
-            targetWindow.webContents.send('file-opened', file, content);
+            targetWindow.webContents.send('file-changed', file, content);
         }
     });
 
