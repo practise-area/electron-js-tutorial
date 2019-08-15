@@ -131,3 +131,6 @@ const saveMarkdown = exports.saveMarkdown = (targetWindow, file, content) => {
     fs.writeFileSync(file, content);
     openFile(targetWindow, file);
 }
+
+const openFiles = new Map();
+
