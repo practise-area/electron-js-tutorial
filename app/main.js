@@ -68,6 +68,7 @@ const createWindow = exports.createWindow = ()=>{
     newWindow.on('closed', ()=>{
         //removes referrence when window is closed
         windows.delete(newWindow);
+        stopWatchingFile(newWindow); //stop watching file for closed window
         newWindow = null;
     });
 
