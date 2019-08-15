@@ -156,3 +156,23 @@ const stopWatchingFile = (targetWindow) => {
         openFiles.delete(targetWindow);
     }
 };
+
+newWindow.on('close', (event)=>{
+    if(newWindow.isDocumentEdited()){
+        event.preventDefault();
+
+        const result = dialog.showMessageBox(newWindow, {
+            type: 'warning',
+            title: 'Quit with Unsaved Changes?',
+            message: 'Your changes will be lost if you do not save',
+            buttons: [ //provides a list of labels
+                'Quit Anyway',
+                'Cancel'
+            ],
+            defaultId: 0, //sets the first option as default if return key pressed
+            cancelId: 1 //sets second button as the main button if user dissmisses the box
+        });
+
+        if(result === 0) newWindow.destroy();
+    }
+})
