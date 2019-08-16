@@ -157,3 +157,11 @@ const renderFile = (file, content) => {
 
     updateUserInterface(false);
 }
+
+ipcRenderer.on('save-markdown', ()=>{
+    mainProcess.saveMarkdown(currentWindow, filePath, markdownView.value);
+});
+
+ipcRenderer.on('save-html', ()=>{
+    mainProcess.saveHTML(currentWindow, filePath, markdownView.value);
+});
