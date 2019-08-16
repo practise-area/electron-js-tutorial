@@ -18,4 +18,11 @@ const template = [{
     ]
 }];
 
+if(process.platform === 'darwin'){
+    const name = 'Fire Wall';
+    template.unshift({
+        label: none
+    })
+}
+
 module.exports = Menu.buildFromTemplate(template);
