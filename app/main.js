@@ -1,4 +1,5 @@
-const { app, BrowserWindow, dialog } = require('electron');
+const { app, BrowserWindow, dialog, Menu } = require('electron');
+const applicationMenu = require('./application-menu');
 const fs = require('fs');
 
 let mainWindow = null;
@@ -175,4 +176,10 @@ newWindow.on('close', (event)=>{
 
         if(result === 0) newWindow.destroy();
     }
+})
+
+//sets application menu as defaut app when it lauches
+app.on('ready', ()=>{
+    Menu.setApplicationMenu(applicationMenu);
+    createWindow();
 })
