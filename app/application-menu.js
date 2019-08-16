@@ -2,7 +2,42 @@ const { app, BrowserWindow, Menu, MenuItem, shell } = require('electron');
 const mainProcess = require('./main');
 
 //blueprint for the menu
-const template = [{
+const template = [
+    {
+        label: File,
+        submenu: [
+            {
+                label: 'New File',
+                accelerator: 'CommandOrControl+N',
+                click(){
+                    mainProcess.createWindow();
+                }
+            },
+            {
+                label: 'Open File',
+                accelerator: 'CommandOrControl+O',
+                click(item, focusedWindow){
+                    mainProcess.getFileFromUser(focusedWindow);
+                }
+            },
+            {
+                label: 'Save File',
+                accelerator: 'CommandOrControl+S',
+                click(item, focusedWindow){
+                    focusedWindow.webContents.send('save-markdown');
+                }
+            },
+            {
+                label: 'Export HTML',
+                accelerator: 'Shift+CommandOrControl+S',
+                click(item, focusedWindow){
+                    focusedWindow.webContents.send('save-html');
+                }
+            },
+        ]
+    },
+    // "Edit", "Window" and "Help" menus are defined here as well
+    {
     label: 'Edit',
     submenu: [
         //menu items given keyboard shortcuts called accelerators
