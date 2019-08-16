@@ -41,7 +41,7 @@ const template = [{
         {
             label: 'Minimize',
             accelerator: 'CommandOrControl+M',
-            role:'selectall'
+            role:'minimize'
         },
             {
                 label: 'Close',
