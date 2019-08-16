@@ -36,7 +36,8 @@ const template = [{
         },
     ]
 }, {
-    label: 'window', 
+    label: 'Window',
+    role: 'window', 
     subment: [
         {
             label: 'Minimize',
@@ -54,7 +55,7 @@ const template = [{
 if(process.platform === 'darwin'){
     const name = app.getName();
     template.unshift({
-        label: none, 
+        label: name, 
         submenu: [
             { 
                 label: `About ${name}`,
@@ -85,8 +86,17 @@ if(process.platform === 'darwin'){
                 accelerator: 'Command+Q',
                 click(){ app.quit(); } //no built in role for quitting application
             }
-        ]
+        ],
             
+    });
+
+    const windowMenu = template.find(item => item.label === 'Window');
+    windowMenu.role = 'window';
+    windowMenu.submenu.push({
+        type: 'separator'
+    }, {
+        label: 'Bring All to Front',
+        role: 'front'
     })
 }
 
