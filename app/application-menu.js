@@ -50,6 +50,21 @@ const template = [{
                 role:'close'
             }
     ]
+}, {
+    label: 'Help',
+    role: 'help',
+    submenu: [
+        {
+            label: 'Visit Website',
+            click(){ /* to be implemented */}
+        },
+        {
+            label: 'Toggle Developer Tools',
+            click(item, focusedWindow){
+                if(focusedWindow) focusedWindow.webContents.toggleDevTools();
+            }
+        }
+    ]
 }];
 
 if(process.platform === 'darwin'){
