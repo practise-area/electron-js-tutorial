@@ -17,7 +17,15 @@ const template = [
                 label: 'Open File',
                 accelerator: 'CommandOrControl+O',
                 click(item, focusedWindow){
-                    mainProcess.getFileFromUser(focusedWindow);
+                    if(focusedWindow){
+                        return mainProcess.getFileFromUser(focusedWindow);
+                    }
+                    
+                    const newWindow = mainProcess.createWindow();
+
+                    newWindow.on('show', ()=>{
+                        mainProcess.getFileFromUser(newWindow);
+                    });
                 }
             },
             {
@@ -48,7 +56,6 @@ const template = [
             },
         ]
     },
-    // "Edit", "Window" and "Help" menus are defined here as well
     {
     label: 'Edit',
     submenu: [
