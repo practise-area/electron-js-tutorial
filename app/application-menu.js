@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu, MenuItem, shell } = require('electron');
+const { app, dialog, Menu, MenuItem, shell } = require('electron');
 const mainProcess = require('./main');
 
 //blueprint for the menu
@@ -24,6 +24,12 @@ const template = [
                 label: 'Save File',
                 accelerator: 'CommandOrControl+S',
                 click(item, focusedWindow){
+                    if(!focusedWindow){
+                        return dialog.showErrorBox(
+                            'Cannot Save or Export',
+                            'There is currently no active document to save or export.'
+                        );
+                    }
                     focusedWindow.webContents.send('save-markdown');
                 }
             },
@@ -31,6 +37,12 @@ const template = [
                 label: 'Export HTML',
                 accelerator: 'Shift+CommandOrControl+S',
                 click(item, focusedWindow){
+                    if(!focusedWindow){
+                        return dialog.showErrorBox(
+                            'Cannot Save or Export',
+                            'There is currently no active document to save or export.'
+                        );
+                    }
                     focusedWindow.webContents.send('save-html');
                 }
             },
