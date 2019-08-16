@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu, shell } = require('electron');
+const { app, BrowserWindow, Menu, MenuItem, shell } = require('electron');
 const mainProcess = require('./main');
 
 //blueprint for the menu
@@ -58,4 +58,10 @@ if(process.platform === 'darwin'){
     })
 }
 
+
+const copyMenuItem = new MenuItem({
+    label: 'Copy',
+    accelerator: 'CommandOrControl+c',
+    role: 'copy'
+})
 module.exports = Menu.buildFromTemplate(template);
