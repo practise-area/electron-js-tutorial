@@ -170,7 +170,7 @@ ipcRenderer.on('save-html', ()=>{
 
 markdownView.addEventListener('contextmenu', (event)=>{
     event.preventDefault();
-    markdownContextMenu.popup();
+    markdownContexBtMenu.popup();
 });
 
 const markdownContextMenu = Menu.buildFromTemplate([
@@ -180,4 +180,4 @@ const markdownContextMenu = Menu.buildFromTemplate([
     { label: 'Copy', role: 'copy'},
     { label: 'Paste', role: 'paste' },
     { label: 'Select All', role: 'selectall'},
-])
+]);
