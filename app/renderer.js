@@ -165,3 +165,9 @@ ipcRenderer.on('save-markdown', ()=>{
 ipcRenderer.on('save-html', ()=>{
     mainProcess.saveHTML(currentWindow, filePath, markdownView.value);
 });
+
+
+markdownView.addEventListener('contentmenu', (event)=>{
+    event.preventDefault();
+    alert('One day, a content menu will go here.');
+})
