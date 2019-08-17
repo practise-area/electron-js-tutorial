@@ -168,9 +168,9 @@ ipcRenderer.on('save-html', ()=>{
 });
 
 
-markdownView.addEventListener('contentmenu', (event)=>{
+markdownView.addEventListener('contextmenu', (event)=>{
     event.preventDefault();
-    alert('One day, a content menu will go here.');
+    markdownContextMenu.popup();
 });
 
 const markdownContextMenu = Menu.buildFromTemplate([
