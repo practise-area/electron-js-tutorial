@@ -1,5 +1,6 @@
 const marked = require('marked');
 const { remote, ipcRenderer } = require('electron');
+const { Menu } =remote;
 const mainProcess = remote.require('./main.js');
 const currentWindow = remote.getCurrentWindow();
 const path = require('path');
@@ -170,4 +171,13 @@ ipcRenderer.on('save-html', ()=>{
 markdownView.addEventListener('contentmenu', (event)=>{
     event.preventDefault();
     alert('One day, a content menu will go here.');
-})
+});
+
+const markdownContextMenu = Menu.buildFromTemplate([
+    { label: 'Open File', click(){ mainProcess.getFileFromUser(); }},
+    { type: 'separator' },
+    { label: 'Cut', role: 'cut' },
+    { label: 'Copy', role: 'copy'},
+    { label: 'Paste', role: 'paste' },
+    { label: 'Select All', role: 'selectall'},
+])
