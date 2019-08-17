@@ -184,3 +184,20 @@ const markdownContextMenu = Menu.buildFromTemplate([
     { label: 'Paste', role: 'paste' },
     { label: 'Select All', role: 'selectall'},
 ]);
+
+const showFile = ()=>{
+    if(!filePath){
+        return alert('This fle has not been saved to the file system');
+    }
+    shell.showItemInFolder(filePath);
+};
+
+const openInDefaultApplication = ()=>{
+    if(!filePath){
+        return alert('This file has not been saved to the filesystem');
+    }
+    shell.openItem(filePath);
+};
+
+showFileButton.addEventListener('click', showFile);
+openInDefaultButton.addEventListener('click', openInDefaultApplication);
