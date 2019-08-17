@@ -4,7 +4,7 @@ const mainProcess = require('./main');
 //blueprint for the menu
 const template = [
     {
-        label: File,
+        label: 'File',
         submenu: [
             {
                 label: 'New File',
@@ -92,7 +92,7 @@ const template = [
 }, {
     label: 'Window',
     role: 'window', 
-    subment: [
+    submenu: [
         {
             label: 'Minimize',
             accelerator: 'CommandOrControl+M',
