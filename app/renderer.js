@@ -156,6 +156,9 @@ const renderFile = (file, content) => {
     markdownView.value = content;
     renderMarkdownToHtml(content);
 
+    showFileButton.disabled = false;
+    openInDefaultButton.disabled = false;
+    
     updateUserInterface(false);
 }
 
